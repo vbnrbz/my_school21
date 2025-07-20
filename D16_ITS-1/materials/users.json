@@ -1,0 +1,18 @@
+{
+  "ivanov": {
+    "password": "12345",
+    "role": "doctor"
+  },
+  "petrova": {
+    "password": "qwerty",
+    "role": "doctor"
+  },
+  "sidorova": {
+    "password": "qazwsxedc",
+    "role": "nurse"
+  },
+  "maximov": {
+    "password": "password",
+    "role": "nurse"
+  }
+}

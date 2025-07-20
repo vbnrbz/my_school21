@@ -1,0 +1,91 @@
+--------------------------------------------------
+Enter:
+ - 1, if you want to create a schedule;
+ - 2, if you want to add a patient to a ready schedule;
+ - 3, if you want to complete the program.
+--------------------------------------------------
+1
+Enter the full name of the doctor: petrov petr petrovich
+Enter the speciality of the doctor: therapist
+Enter the time of first appointment (08:00): 08:00
+Enter the time of last appointment (13:30): 10:30
+Enter the duration of one appointment in minutes (15): 30
+--------------------------------------------------
+--------------------------------------------------
+Enter:
+ - 1, if you want to create a schedule;
+ - 2, if you want to add a patient to a ready schedule;
+ - 3, if you want to complete the program.
+--------------------------------------------------
+1
+Enter the full name of the doctor: ivanov ivan ivanovich
+Enter the speciality of the doctor: lor
+Enter the time of first appointment (08:00): 13:30
+Enter the time of last appointment (13:30): 16:00
+Enter the duration of one appointment in minutes (15): 30
+--------------------------------------------------
+--------------------------------------------------
+Enter:
+ - 1, if you want to create a schedule;
+ - 2, if you want to add a patient to a ready schedule;
+ - 3, if you want to complete the program.
+--------------------------------------------------
+2
+List of current schedules - Petrov Petr Petrovich, Ivanov Ivan Ivanovich
+Enter the full name of the doctor to whose schedule you want to add the patient: petrov petr petrovich
+Doctor - Petrov Petr Petrovich
+Speciality - Therapist
+| Time   | Patient   | The patient visited the doctor   |
+|--------|-----------|----------------------------------|
+| 08:00  |           | No                               |
+| 08:30  |           | No                               |
+| 09:00  |           | No                               |
+| 09:30  |           | No                               |
+| 10:00  |           | No                               |
+| 10:30  |           | No                               |
+Enter the time you want to schedule the patient, it must be in the schedule (08:00): 09:30
+Enter the full name of patient separated by a space (Ivanov Ivan Ivanovich): sidorov sidor sidorovich
+| Time   | Patient                  | The patient visited the doctor   |
+|--------|--------------------------|----------------------------------|
+| 08:00  |                          | No                               |
+| 08:30  |                          | No                               |
+| 09:00  |                          | No                               |
+| 09:30  | Sidorov Sidor Sidorovich | No                               |
+| 10:00  |                          | No                               |
+| 10:30  |                          | No                               |
+--------------------------------------------------
+Enter:
+ - 1, if you want to create a schedule;
+ - 2, if you want to add a patient to a ready schedule;
+ - 3, if you want to complete the program.
+--------------------------------------------------
+2
+List of current schedules - Petrov Petr Petrovich, Ivanov Ivan Ivanovich
+Enter the full name of the doctor to whose schedule you want to add the patient: ivanov ivan ivanovich
+Doctor - Ivanov Ivan Ivanovich
+Speciality - Lor
+| Time   | Patient   | The patient visited the doctor   |
+|--------|-----------|----------------------------------|
+| 13:30  |           | No                               |
+| 14:00  |           | No                               |
+| 14:30  |           | No                               |
+| 15:00  |           | No                               |
+| 15:30  |           | No                               |
+| 16:00  |           | No                               |
+Enter the time you want to schedule the patient, it must be in the schedule (08:00): 16:00
+Enter the full name of patient separated by a space (Ivanov Ivan Ivanovich): patientov patient patientovich
+| Time   | Patient                        | The patient visited the doctor   |
+|--------|--------------------------------|----------------------------------|
+| 13:30  |                                | No                               |
+| 14:00  |                                | No                               |
+| 14:30  |                                | No                               |
+| 15:00  |                                | No                               |
+| 15:30  |                                | No                               |
+| 16:00  | Patientov Patient Patientovich | No                               |
+--------------------------------------------------
+Enter:
+ - 1, if you want to create a schedule;
+ - 2, if you want to add a patient to a ready schedule;
+ - 3, if you want to complete the program.
+--------------------------------------------------
+3

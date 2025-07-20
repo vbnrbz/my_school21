@@ -1,0 +1,3 @@
+Enter the path to the file to read: materials/files_for_tests/test.txt
+Contents of the text file:
+Test line

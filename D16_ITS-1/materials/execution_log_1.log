@@ -1,0 +1,2 @@
+2024-09-09 16:33:02 - Function stub_write_recipe was executed with the following arguments: args=(), kwargs={'signature_name': 'Ivanov Ivan Ivanovich', 'signature_speciality': 'Doctor-surgeon'}
+2024-09-09 16:33:02 - Function stub_write_recipe was executed with the following arguments: args=('Petrov Petr Petrovich',), kwargs={}

@@ -1,0 +1,3 @@
+Direct bilirubin - 3.4\nALT - 0.52\nAST - 0.43\nBlood sugar - 4.1\nCholesterol - 5.2\n
+direct Bilirubin - 3.4\nblood Sugar - 4.1\ncholesterol - 5.2\nalt - 0.52\nast - 0.43\n
+Direct Bilirubin - 3.4\nBlood Sugar - 4.1\nCholesterol - 5.2\nalt - 0.52\nAST - 0.43\n

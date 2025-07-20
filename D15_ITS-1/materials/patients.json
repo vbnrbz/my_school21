@@ -1,0 +1,127 @@
+[
+    {
+        "ID": 1,
+        "Name": "Denis",
+        "Surname": "Astafiev",
+        "Patronymic": "Denisovich",
+        "Age": "30",
+        "Sex": "Man",
+        "Blood group": "O+",
+        "Chronic diseases": [
+            "Chronic kidney disease",
+            "Hypertension",
+            "Diabetes"
+        ]
+    },
+    {
+        "ID": 2,
+        "Name": "Pavel",
+        "Surname": "Sidorov",
+        "Patronymic": "Sergeevich",
+        "Age": "43",
+        "Sex": "Man",
+        "Blood group": "AB+",
+        "Chronic diseases": [
+            "Chronic bronchitis"
+        ]
+    },
+    {
+        "ID": 3,
+        "Name": "Anatoliy",
+        "Surname": "Kozlov",
+        "Patronymic": "Dmitrievich",
+        "Age": "58",
+        "Sex": "Man",
+        "Blood group": "AB-",
+        "Chronic diseases": []
+    },
+    {
+        "ID": 4,
+        "Name": "Olga",
+        "Surname": "Lebedeva",
+        "Patronymic": "Alexeevna",
+        "Age": "64",
+        "Sex": "Woman",
+        "Blood group": "A+",
+        "Chronic diseases": [
+            "Osteoporosis"
+        ]
+    },
+    {
+        "ID": 5,
+        "Name": "Elena",
+        "Surname": "Ivanova",
+        "Patronymic": "Vladimirovna",
+        "Age": "46",
+        "Sex": "Woman",
+        "Blood group": "A-",
+        "Chronic diseases": [
+            "Osteoporosis",
+            "Chronic heart failure",
+            "Chronic kidney disease"
+        ]
+    },
+    {
+        "ID": 6,
+        "Name": "Alexey",
+        "Surname": "Sonkin",
+        "Patronymic": "Alexeevich",
+        "Age": "71",
+        "Sex": "Man",
+        "Blood group": "B-",
+        "Chronic diseases": [
+            "Chronic heart failure"
+        ]
+    },
+    {
+        "ID": 7,
+        "Name": "Anna",
+        "Surname": "Lebedeva",
+        "Patronymic": "Vitalievna",
+        "Age": "52",
+        "Sex": "Woman",
+        "Blood group": "AB-",
+        "Chronic diseases": [
+            "Chronic kidney disease",
+            "Chronic bronchitis",
+            "Asthma"
+        ]
+    },
+    {
+        "ID": 8,
+        "Name": "Alexandr",
+        "Surname": "Popenko",
+        "Patronymic": "Sergeevich",
+        "Age": "72",
+        "Sex": "Man",
+        "Blood group": "AB-",
+        "Chronic diseases": [
+            "Hepatitis",
+            "Asthma",
+            "Chronic heart failure"
+        ]
+    },
+    {
+        "ID": 9,
+        "Name": "Dmitriy",
+        "Surname": "Sonchenko",
+        "Patronymic": "Vladimirovich",
+        "Age": "56",
+        "Sex": "Man",
+        "Blood group": "A+",
+        "Chronic diseases": []
+    },
+    {
+        "ID": 10,
+        "Name": "Alla",
+        "Surname": "Kochergina",
+        "Patronymic": "Sergeevna",
+        "Age": "77",
+        "Sex": "Woman",
+        "Blood group": "AB-",
+        "Chronic diseases": [
+            "Hypertension",
+            "Diabetes"
+        ]
+    }
+]

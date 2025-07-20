@@ -1,0 +1,9 @@
+Enter the path to the file to read: materials/files_for_tests/card.json
+Contents of the json file:
+{
+    "Surname": "Sidorova",
+    "Name": "Svetlana",
+    "Patronymic": "Sergeevna",
+    "Date of birth": "1987-03-11",
+    "Sex": "W"
+}

@@ -1,0 +1,83 @@
+Enter the full name of patient separated by a space (Ivanov Ivan Ivanovich): petrov petr petrovich
+There is no patient card!
+Enter the surname of patient: petrov
+Enter the name of patient: petr
+Enter the patronymic of patient: petrovich
+Enter the date of birth of patient (1994-01-10): 1994-03-10
+Enter the sex of patient (M or W): m
+{
+    "Surname": "Petrov",
+    "Name": "Petr",
+    "Patronymic": "Petrovich",
+    "Date of birth": "1994-03-10",
+    "Sex": "M"
+}
+--------------------------------------------------
+Enter:
+ - 1, if you want to see a list of dates of previous visits;
+ - 2, if you want to see the recording of the previous visit;
+ - 3, if you want to start recording in the current visit;
+ - 4, if you want to finish the appointment and complete the program.
+--------------------------------------------------
+1
+Previous doctor appointments:
+2024-09-01
+--------------------------------------------------
+Enter:
+ - 1, if you want to see a list of dates of previous visits;
+ - 2, if you want to see the recording of the previous visit;
+ - 3, if you want to start recording in the current visit;
+ - 4, if you want to finish the appointment and complete the program.
+--------------------------------------------------
+2
+Enter the date of the appointment you want to watch: asd
+There was no such appointment with the doctor!
+--------------------------------------------------
+Enter:
+ - 1, if you want to see a list of dates of previous visits;
+ - 2, if you want to see the recording of the previous visit;
+ - 3, if you want to start recording in the current visit;
+ - 4, if you want to finish the appointment and complete the program.
+--------------------------------------------------
+1
+Previous doctor appointments:
+2024-09-01
+--------------------------------------------------
+Enter:
+ - 1, if you want to see a list of dates of previous visits;
+ - 2, if you want to see the recording of the previous visit;
+ - 3, if you want to start recording in the current visit;
+ - 4, if you want to finish the appointment and complete the program.
+--------------------------------------------------
+2
+Enter the date of the appointment you want to watch: 2024-09-01
+3.1
+
+qwe asd zxc
+
+zxc asd qwe
+
+--------------------------------------------------
+Enter:
+ - 1, if you want to see a list of dates of previous visits;
+ - 2, if you want to see the recording of the previous visit;
+ - 3, if you want to start recording in the current visit;
+ - 4, if you want to finish the appointment and complete the program.
+--------------------------------------------------
+3
+Enter records for the current appointment (to finish press Enter twice):
+asd
+
+qwe
+
+zxc
+
+
+--------------------------------------------------
+Enter:
+ - 1, if you want to see a list of dates of previous visits;
+ - 2, if you want to see the recording of the previous visit;
+ - 3, if you want to start recording in the current visit;
+ - 4, if you want to finish the appointment and complete the program.
+--------------------------------------------------
+4

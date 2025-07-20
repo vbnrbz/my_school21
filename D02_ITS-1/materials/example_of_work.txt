@@ -1,0 +1,11 @@
+Insert test results: Direct bilirubin - 3.4\nALT - 0.52\nAST - 0.43\nBlood sugar - 4.1\nCholesterol - 5.2\n
+--------------------------------------------------
+ALT - 0.52
+AST - 0.43
+--------------------------------------------------
+Enter the average daily dose in mg/kg (10 or 15): 15
+Enter the weight of patient: 75
+Enter the number of days in the course of treatment: 14
+--------------------------------------------------
+Patient needs to take 2 of the pill(s) in the morning and 3 of the pill(s) in the evening
+Need 2 pack(s) of 50 pills (250 mg) for the entire course of treatment

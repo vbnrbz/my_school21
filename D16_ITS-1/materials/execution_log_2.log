@@ -1,0 +1,14 @@
+2024-09-09 16:34:23 - Function stub_write_recipe was executed with the following arguments: args=(), kwargs={'signature_name': 'Ivanov Ivan Ivanovich', 'signature_speciality': 'Doctor-surgeon'}
+2024-09-09 16:34:23 - Function stub_add_to_schedule was executed with the following arguments: args=('2024-02-13', '13:00'), kwargs={}
+2024-09-09 16:34:23 - <class 'TypeError'>
+Traceback (most recent call last):
+  File "C:\Users\user\school_21\sechenovka\gitlab_school_21\D16_ITS.ID_1517511\tests\solutions\task_bonus_2.py", line 16, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: stub_add_to_schedule() missing 1 required positional argument: 'time_'
+2024-09-09 16:34:23 - <class 'TypeError'>
+Traceback (most recent call last):
+  File "C:\Users\user\school_21\sechenovka\gitlab_school_21\D16_ITS.ID_1517511\tests\solutions\task_bonus_2.py", line 16, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: stub_add_to_schedule() got an unexpected keyword argument 'room'

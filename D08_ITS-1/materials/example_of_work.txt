@@ -1,0 +1,66 @@
+| Time   | Patient   | The patient visited the doctor   |
+|--------|-----------|----------------------------------|
+| 08:00  |           | No                               |
+| 08:30  |           | No                               |
+| 09:00  |           | No                               |
+| 09:30  |           | No                               |
+| 10:00  |           | No                               |
+| 10:30  |           | No                               |
+------------------------------------------------------------
+Enter:
+ - 1, if you want to add a patient to the schedule;
+ - 2, if you want to add technical time;
+ - 3, if you want to finish forming the schedule.
+------------------------------------------------------------
+1
+Enter the time you want to schedule the patient, it must be in the schedule (08:00): 09:00
+Enter the full name of patient separated by a space (Ivanov Ivan Ivanovich): ivanov ivan ivanovich
+| Time   | Patient               | The patient visited the doctor   |
+|--------|-----------------------|----------------------------------|
+| 08:00  |                       | No                               |
+| 08:30  |                       | No                               |
+| 09:00  | Ivanov Ivan Ivanovich | No                               |
+| 09:30  |                       | No                               |
+| 10:00  |                       | No                               |
+| 10:30  |                       | No                               |
+------------------------------------------------------------
+Enter:
+ - 1, if you want to add a patient to the schedule;
+ - 2, if you want to add technical time;
+ - 3, if you want to finish forming the schedule.
+------------------------------------------------------------
+1
+Enter the time you want to schedule the patient, it must be in the schedule (08:00): 15:00
+Enter the full name of patient separated by a space (Ivanov Ivan Ivanovich): petrov petr petrovich
+This time is not on the schedule!
+| Time   | Patient               | The patient visited the doctor   |
+|--------|-----------------------|----------------------------------|
+| 08:00  |                       | No                               |
+| 08:30  |                       | No                               |
+| 09:00  | Ivanov Ivan Ivanovich | No                               |
+| 09:30  |                       | No                               |
+| 10:00  |                       | No                               |
+| 10:30  |                       | No                               |
+------------------------------------------------------------
+Enter:
+ - 1, if you want to add a patient to the schedule;
+ - 2, if you want to add technical time;
+ - 3, if you want to finish forming the schedule.
+------------------------------------------------------------
+2
+Enter technical times separated by commas and spaces, they should be in the schedule (08:00, 09:30): 08:00, 10:30, 16:00
+| Time   | Patient               | The patient visited the doctor   |
+|--------|-----------------------|----------------------------------|
+| 08:00  | Technical time        | No                               |
+| 08:30  |                       | No                               |
+| 09:00  | Ivanov Ivan Ivanovich | No                               |
+| 09:30  |                       | No                               |
+| 10:00  |                       | No                               |
+| 10:30  | Technical time        | No                               |
+------------------------------------------------------------
+Enter:
+ - 1, if you want to add a patient to the schedule;
+ - 2, if you want to add technical time;
+ - 3, if you want to finish forming the schedule.
+------------------------------------------------------------
+3
