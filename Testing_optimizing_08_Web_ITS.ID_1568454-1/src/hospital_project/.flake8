@@ -1,0 +1,7 @@
+[flake8]
+max-line-length = 120
+exclude = .git,__pycache__,migrations,venv
+import-order-style = google
+application-import-names = appointments
+docstring-convention = google
+max-complexity = 10

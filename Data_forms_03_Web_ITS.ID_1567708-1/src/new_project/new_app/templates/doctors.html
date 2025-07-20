@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}Врачи - Медицинский Центр{% endblock %}
+{% block description %}Профессиональные врачи Медицинского Центра.{% endblock %}
+{% block header %}Наши Врачи{% endblock %}
+{% block content %}
+<section>
+    <a href="{% url 'create_doctor' %}">Добавить нового врача</a>
+    {% for doctor in doctors %}
+    <article>
+        <h2>{{ doctor.fio }}</h2>
+        <p>Специальность: {{ doctor.specialty }}</p>
+        <p>Дата рождения: {{ doctor.birth_date }}</p>
+        <p>Статус: {% if doctor.available %}Доступен{% else %}Не доступен{% endif %}</p>
+    </article>
+    {% empty %}
+    <p>Врачи не найдены.</p>
+    {% endfor %}
+</section>
+{% endblock %}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контактная информация и форма обратной связи.">
+    <title>Контакты - Медицинский центр</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header role="banner">
+        <div class="header-container">
+            <div class="logo">Здоровье</div>
+            <nav role="navigation" aria-label="Основная навигация">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="doctors.html">Врачи</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main" aria-label="Основной контент">
+        <div class="main-container">
+            <section>
+                <h2>Контактная информация</h2>
+                <p>Адрес: г. Москва, ул. Здоровья, д. 1</p>
+                <p>Телефон: +7 (495) 123-45-67</p>
+                <p>Email: info@healthcenter.ru</p>
+
+                <div id="map" style="width: 100%; height: 400px; margin: 20px 0;"></div>
+            </section>
+
+            <section>
+                <h2>Обратная связь</h2>
+                <form id="contact-form">
+                    <label for="name">Имя:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="message">Сообщение:</label><br>
+                    <textarea id="message" name="message" required></textarea><br>
+
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2025 Медицинский центр</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        ymaps.ready(init);
+        
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                center: [55.751244, 37.618423],
+                zoom: 14
+            });
+            
+            var myPlacemark = new ymaps.Placemark([55.751244, 37.618423], {
+                hintContent: 'Медицинский центр "Здоровье"',
+                balloonContent: 'ул. Здоровья, д. 1'
+            });
+            
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заполните форму</title>
+</head>
+<body>
+    <h1>Форма для заполнения</h1>
+    <form method="post">
+        {% csrf_token %}
+        <p>{{ form.id.label }}: {{ form.id }}</p>
+        <p>{{ form.trial.label }}: {{ form.trial }}</p>
+        <p>{{ form.score.label }}: {{ form.score }}</p>
+        <p>{{ form.drug.label }}: {{ form.drug }}</p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+    </form>
+</body>
+</html>

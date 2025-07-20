@@ -1,0 +1,1 @@
+alter table trials add column med varchar(100);

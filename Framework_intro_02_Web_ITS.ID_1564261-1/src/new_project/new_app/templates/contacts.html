@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Контакты - Медицинский Центр{% endblock %}
+{% block description %}Контактная информация Медицинского Центра.{% endblock %}
+{% block header %}Контакты{% endblock %}
+{% block content %}
+<section>
+    <h2>Обратная связь</h2>
+    <form id="contactForm">
+        {% csrf_token %}
+        {{ form.as_p }}
+      <button type="submit">Отправить</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+  <section>
+    <h2>Наш адрес</h2>
+    <p>Улица Ленина, 123, Москва, Россия</p>
+    <!-- Здесь можно встроить карту -->
+  </section>
+{% endblock %}

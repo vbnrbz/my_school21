@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<section>
+    <h2>Редактирование врача</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Сохранить</button>
+        <button type="submit" name="delete">Удалить</button>
+        <a href="{% url 'doctors' %}">Отмена</a>
+    </form>
+</section>
+{% endblock %}

@@ -1,0 +1,9 @@
+[INFO] 2025-06-16 00:49:44,045 autoreload 65662 8552816384 Watching for file changes with StatReloader
+[WARNING] 2025-06-16 00:49:54,782 log 65662 6131953664 Not Found: /
+[WARNING] 2025-06-16 00:50:19,918 log 65662 6131953664 Method Not Allowed: /api/room/create
+[INFO] 2025-06-16 00:50:36,164 views 65662 6216085504 Начало выполнения RoomCreateAPIView.create
+[WARNING] 2025-06-16 00:51:06,652 log 65662 6232911872 Not Found: /api/rooms/
+[INFO] 2025-06-16 00:53:26,952 autoreload 67598 8552816384 Watching for file changes with StatReloader
+[WARNING] 2025-06-16 00:53:36,486 log 67598 6158430208 Not Found: /api/rooms/
+[INFO] 2025-06-16 00:53:42,641 views 67598 6158430208 Начало выполнения RoomListAPIView.list
+[INFO] 2025-06-16 00:54:39,444 views 67598 6158430208 Начало выполнения RoomListAPIView.list

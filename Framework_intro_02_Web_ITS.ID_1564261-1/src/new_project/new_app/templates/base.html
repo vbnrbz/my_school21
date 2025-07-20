@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% block description %}{% endblock %}">
+  <title>{% block title %}{% endblock %}</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'new_app/css/styles.css' %}">
+</head>
+<body>
+  <header>
+    <h1>{% block header %}{% endblock %}</h1>
+  </header>
+  <nav role="navigation" aria-label="Основное меню">
+    <ul>
+      <li><a href="{% url 'index' %}">Главная</a></li>
+      <li><a href="{% url 'about' %}">О нас</a></li>
+      <li><a href="{% url 'services' %}">Услуги</a></li>
+      <li><a href="{% url 'doctors' %}">Врачи</a></li>
+      <li><a href="{% url 'contacts' %}">Контакты</a></li>
+    </ul>
+  </nav>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+  <footer>
+    <p>&copy; 2025 Медицинский Центр</p>
+  </footer>
+  <script src="{% static 'new_app/js/script.js' %}"></script>
+</body>
+</html>

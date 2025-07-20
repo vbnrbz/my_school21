@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if doctor %}
+<section>
+    <h2>{{ doctor.fio }}</h2>
+    <p><strong>ID:</strong> {{ doctor.doctor_id }}</p>
+    <p><strong>Специальность:</strong> {{ doctor.specialty }}</p>
+    <p><strong>Дата рождения:</strong> {{ doctor.birth_date|date:"d.m.Y" }}</p>
+    <p><strong>Статус:</strong> 
+        <span class="badge {% if doctor.available %}bg-success{% else %}bg-danger{% endif %}">
+            {% if doctor.available %}Доступен{% else %}Не доступен{% endif %}
+        </span>
+    </p>
+    <a href="{% url 'edit_doctor' doctor.doctor_id %}" class="btn btn-warning">Редактировать</a>
+    <a href="{% url 'doctors' %}" class="btn btn-secondary">Назад</a>
+</section>
+{% else %}
+<div class="alert alert-danger">Врач не найден</div>
+{% endif %}
+{% endblock %}

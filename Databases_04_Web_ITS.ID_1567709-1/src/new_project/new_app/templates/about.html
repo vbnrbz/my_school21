@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}О нас - Медицинский Центр{% endblock %}
+{% block description %}Информация о Медицинском Центре.{% endblock %}
+{% block header %}О Медицинском Центре{% endblock %}
+{% block content %}
+<section>
+    <h2>Наша миссия</h2>
+    <p>Мы стремимся обеспечить высококачественную медицинскую помощь и заботу о каждом пациенте.</p>
+  </section>
+  <section>
+    <h2>История</h2>
+    <p>Медицинский Центр был основан в 2000 году и с тех пор непрерывно развивается.</p>
+  </section>
+  <section>
+    <h2>Галерея</h2>
+    <div class="gallery">
+      <!-- Галерея с использованием Lightbox -->
+       {% load static %}
+      <a href="{% static 'new_app/images/center1.jpg' %}" data-lightbox="gallery"><img src="{% static 'new_app/images/center1.jpg' %}" alt="Фото центра 1"></a>
+      <a href="{% static 'new_app/images/center2.jpg' %}" data-lightbox="gallery"><img src="{% static 'new_app/images/center2.jpg' %}" alt="Фото центра 2"></a>
+      <a href="{% static 'new_app/images/center3.jpg' %}" data-lightbox="gallery"><img src="{% static 'new_app/images/center3.jpg' %}" alt="Фото центра 3"></a>
+    </div>
+  </section>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+{% endblock %}
